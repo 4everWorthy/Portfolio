@@ -65,14 +65,16 @@ p {
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        flex-direction: column;
 }
     
     .image-container {
-        flex: 0 0 30%; /* Adjust the width as needed */
+        flex: 0 0 30%;
+        margin-bottom: 20px;
     }
     
     .text-container {
-        flex: 0 0 70%; /* Adjust the width as needed */
+        flex: 0 0 70%; 
     }
     
     .image-container img {
@@ -96,5 +98,5 @@ p {
     }
 
     @media only screen and (max-width: 600px){
-        
+
     }
